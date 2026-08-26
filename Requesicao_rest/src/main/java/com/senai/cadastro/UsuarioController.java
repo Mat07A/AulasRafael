@@ -14,7 +14,6 @@ public class UsuarioController {
 
     final UsuarioRepository usuarioRepository;
 
-    ArrayList<Usuario> usuarios = new ArrayList<>();
 
     @GetMapping
     public List<Usuario> listarTodosUsuarios() {
